@@ -1,5 +1,5 @@
-#ifndef ABB_TASK_H
-#define ABB_TASK_H
+#ifndef HTV_TASK_H
+#define HTV_TASK_H
 #include <QObject>
 
 #include <QTimer>
@@ -8,7 +8,7 @@
 #include <QMutex>
 #include <QMultiMap>
 #include <QLinkedList>
-#include "abb_workerthread.h"
+#include "htv_workerthread.h"
 class C_Task
 {
 	public: enum t_TaskStatus
@@ -49,4 +49,4 @@ private: QMutex		m_TaskLock;
 //private: QMultiMap<QString, C_Task*> m_Tasks;
 private: QLinkedList<C_Task*>	m_Tasks;
 };
-#endif // ABB_TASK_H
+#endif // htv_TASK_H

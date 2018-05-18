@@ -1,14 +1,14 @@
-#ifndef ABB_REPLICATIONMANAGER_H
-#define ABB_REPLICATIONMANAGER_H
+#ifndef HTV_REPLICATIONMANAGER_H
+#define HTV_REPLICATIONMANAGER_H
 
 #include <QObject>
 #include <QtGui>
 #include <core/htv_config.h>
-#include "core/abb_directorymonitor.h"
-#include "core/abb_replicationfile.h"
-#include "network/abb_replicationserver.h"
-#include "network/abb_replicationconnection.h"
-#include "network/abb_replicationclient.h"
+#include "core/htv_directorymonitor.h"
+#include "core/htv_replicationfile.h"
+#include "network/htv_replicationserver.h"
+#include "network/htv_replicationconnection.h"
+#include "network/htv_replicationclient.h"
 #include <QMutex>
 #include <QMutexLocker>
 #include <QTimer>
@@ -90,4 +90,4 @@ private:
 	QTimer							m_BroadcastTimer;
 };
 
-#endif // ABB_REPLICATIONMANAGER_H
+#endif // htv_REPLICATIONMANAGER_H

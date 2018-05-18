@@ -1,5 +1,5 @@
-#ifndef ABB_WORKERTHREAD_H
-#define ABB_WORKERTHREAD_H
+#ifndef HTV_WORKERTHREAD_H
+#define HTV_WORKERTHREAD_H
 
 #include <QObject>
 #include <QTimer>
@@ -21,4 +21,4 @@ class C_WorkerThread : public QObject
 	protected: quint16	m_MaxThreadCount;
 	protected: QMutex		m_ThreadCountLock;
 };
-#endif // ABB_WORKERTHREAD_H
+#endif // htv_WORKERTHREAD_H

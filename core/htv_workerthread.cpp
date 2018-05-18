@@ -1,4 +1,4 @@
-#include "abb_workerthread.h"
+#include "htv_workerthread.h"
 
 C_WorkerThread::C_WorkerThread(int maxThreadCount, int ms, QObject *parent) : QObject(parent)
 {

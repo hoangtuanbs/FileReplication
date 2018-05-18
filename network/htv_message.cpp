@@ -1,8 +1,8 @@
-#include "abb_message.h"
+#include "htv_message.h"
 #include <QDataStream>
-#include "core/abb_replicationfile.h"
+#include "core/htv_replicationfile.h"
 #include <QFileInfo>
-#include "core/abb_directorymonitor.h"
+#include "core/htv_directorymonitor.h"
 #include "core/htv_config.h"
 
 #define DEFAULT_GREETING_MESSAGE "1704"

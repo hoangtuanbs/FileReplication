@@ -1,5 +1,5 @@
-#ifndef ABB_REPLICATIONFILE_H
-#define ABB_REPLICATIONFILE_H
+#ifndef HTV_REPLICATIONFILE_H
+#define HTV_REPLICATIONFILE_H
 
 #include <QFileInfo>
 #include <QDateTime>
@@ -24,4 +24,4 @@ private:
 	friend QDataStream &operator<<(QDataStream &out, const C_RFile& file);
 };
 
-#endif // ABB_REPLICATIONFILE_H
+#endif // HTV_REPLICATIONFILE_H

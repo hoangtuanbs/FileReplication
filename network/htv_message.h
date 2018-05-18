@@ -1,9 +1,9 @@
-#ifndef ABB_MESSAGE_H
-#define ABB_MESSAGE_H
+#ifndef HTV_MESSAGE_H
+#define HTV_MESSAGE_H
 
 #include <QObject>
 #include <QMap>
-#include <core/abb_directorymonitor.h>
+#include <core/htv_directorymonitor.h>
 
 class C_RFile;
 class C_FileEvent;
@@ -188,4 +188,4 @@ class C_FileBlockMessage : public C_Message
 
 	private: QString	m_ReplicationId;
 };
-#endif // ABB_MESSAGE_H
+#endif // htv_MESSAGE_H

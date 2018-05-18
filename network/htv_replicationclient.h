@@ -1,10 +1,10 @@
-#ifndef ABB_REPLICATIONCLIENT_H
-#define ABB_REPLICATIONCLIENT_H
+#ifndef HTV_REPLICATIONCLIENT_H
+#define HTV_REPLICATIONCLIENT_H
 
 #include <QObject>
 #include <QAbstractSocket>
-#include "abb_replicationserver.h"
-#include "abb_replicationconnectionmanager.h"
+#include "htv_replicationserver.h"
+#include "htv_replicationconnectionmanager.h"
 class C_ReplicationServer;
 class QHostAddress;
 class C_ReplicationConnection;
@@ -45,4 +45,4 @@ private:
 	QMultiHash<QHostAddress, C_ReplicationConnection*> m_FileConnections;
 };
 
-#endif // ABB_REPLICATIONCLIENT_H
+#endif // htv_REPLICATIONCLIENT_H

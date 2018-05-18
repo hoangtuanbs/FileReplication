@@ -1,5 +1,5 @@
-#ifndef ABB_REPLICATIONSERVER_H
-#define ABB_REPLICATIONSERVER_H
+#ifndef HTV_REPLICATIONSERVER_H
+#define HTV_REPLICATIONSERVER_H
 
 #include <QObject>
 #include <QTcpServer>
@@ -18,4 +18,4 @@ protected:
 	void incomingConnection(int socketDescriptor);
 };
 
-#endif // ABB_REPLICATIONSERVER_H
+#endif // htv_REPLICATIONSERVER_H

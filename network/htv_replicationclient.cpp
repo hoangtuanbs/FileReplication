@@ -1,5 +1,5 @@
-#include "abb_replicationclient.h"
-#include "abb_replicationconnection.h"
+#include "htv_replicationclient.h"
+#include "htv_replicationconnection.h"
 #include "core/htv_config.h"
 
 C_ReplicationClient::C_ReplicationClient(QObject *parent) :

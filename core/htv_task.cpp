@@ -1,10 +1,10 @@
-#include "abb_task.h"
+#include "htv_task.h"
 #include <QTimer>
 #include <QDateTime>
 #include <QMutex>
 #include <QLinkedList>
 #include <QMultiMap>
-#include "abb_workerthread.h"
+#include "htv_workerthread.h"
 C_Task::C_Task(const QString &name,const QDateTime &executeTime, const quint32 &repeatInterval) :
 	m_ExecuteTime(executeTime),
 	m_Status(t_TaskStatusWaiting),

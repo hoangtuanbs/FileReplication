@@ -1,7 +1,7 @@
-#ifndef ABB_REPLICATIONCONNECTION_H
-#define ABB_REPLICATIONCONNECTION_H
+#ifndef HTV_REPLICATIONCONNECTION_H
+#define HTV_REPLICATIONCONNECTION_H
 
-#include "abb_message.h"
+#include "htv_message.h"
 #include <QObject>
 #include <QHostAddress>
 #include <QString>
@@ -53,4 +53,4 @@ private:
 	C_Message				*m_CurrentMessage;
 };
 
-#endif // ABB_REPLICATIONCONNECTION_H
+#endif // htv_REPLICATIONCONNECTION_H
